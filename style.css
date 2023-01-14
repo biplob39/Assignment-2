@@ -1,9 +1,17 @@
+/* header and nevegation styls */
 .header {
     background: #FFF8F3;
     padding: 20px;
 }
 
-/* header and nevegation styls */
+.font {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 nav {
     width: 100%;
     display: flex;
@@ -32,13 +40,10 @@ nav li {
 
 }
 
+
 /* banner styles */
 .banner {
     align-items: center;
-    margin: 0px;
-
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
 }
 
 h1 {
@@ -67,6 +72,12 @@ h1 {
     margin-top: 50px;
 }
 
+/* Main Section */
+
+main {
+    padding: 120px;
+}
+
 .container {
     display: flex;
     margin-top: 50px;
@@ -75,12 +86,12 @@ h1 {
 .container-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 200px;
+    /* padding-left: 200px; */
 }
 
 .img-size {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     padding: 5px;
 }
 
@@ -99,32 +110,34 @@ h1 {
 
 /*  */
 
-.container-title-Features {
-    padding-left: 150px;
-}
 
-.top {
+.text-title {
     border-left: 4px solid #FD6E0A;
     padding-left: 10px;
 }
 
-.te {
+.text-deception {
     margin: 15px;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     box-shadow: 0 4px 4px 0 rgba(167, 160, 160, 0.2), 0 6px 20px 0 rgba(177, 165, 165, 0.19);
 }
 
-.container-title-img {
-    height: 750px;
-    padding-left: 55px;
+h3 {
+    font-size: 20px;
 }
 
-/*  */
+.container-title-img {
+    height: 750px;
+    padding-left: 65px;
+}
+
+/* Btn Years */
+
 .Year-top {
     text-align: center;
-    transform: translate(100px);
-    margin-top: -115px;
+    transform: translate(80px);
+    margin-top: -160px;
     align-items: center;
 }
 
@@ -133,14 +146,74 @@ h1 {
     border: none;
     border-radius: 5px;
     background-color: #FD6E0A;
-    padding: 30px 45px;
+    padding: 40px 40px;
 }
 
 .Year-title {
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 950;
 }
 
-.Experience {
-    font-size: 10px;
+.year-experience {
+    font-size: 15px;
+}
+
+/*  */
+
+.box-title {
+    /* padding-left: 160px; */
+    margin-top: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.border-img {
+    text-align: center;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 50px;
+
+}
+
+/*  */
+.Sponspors-title {
+    text-align: center;
+}
+
+.Sponspors-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+    filter: grayscale(10)
+}
+
+.img-color {}
+
+/*  */
+
+footer {
+    justify-content: center;
+    text-align: center;
+    background: #f1e2cc;
+
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* ----------------- 
+Media Queries 
+---------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .nav ul {
+        display: block;
+    }
+
+
 }
