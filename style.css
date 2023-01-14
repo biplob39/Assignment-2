@@ -96,3 +96,51 @@ h1 {
 .text-color-sec {
     color: #FD6E0A;
 }
+
+/*  */
+
+.container-title-Features {
+    padding-left: 150px;
+}
+
+.top {
+    border-left: 4px solid #FD6E0A;
+    padding-left: 10px;
+}
+
+.te {
+    margin: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(167, 160, 160, 0.2), 0 6px 20px 0 rgba(177, 165, 165, 0.19);
+}
+
+.container-title-img {
+    height: 750px;
+    padding-left: 55px;
+}
+
+/*  */
+.Year-top {
+    text-align: center;
+    transform: translate(100px);
+    margin-top: -115px;
+    align-items: center;
+}
+
+.btn-years {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    padding: 30px 45px;
+}
+
+.Year-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.Experience {
+    font-size: 10px;
+}
