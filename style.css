@@ -64,8 +64,35 @@ h1 {
     width: 1100px;
     height: 500px;
     padding-left: 100px;
+    margin-top: 50px;
 }
 
 .container {
     display: flex;
+    margin-top: 50px;
+}
+
+.container-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 200px;
+}
+
+.img-size {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+
+.container-title {
+    padding: 30px 0px 00px 50px;
+
+}
+
+.text-color {
+    color: #9F9F9F;
+}
+
+.text-color-sec {
+    color: #FD6E0A;
 }
