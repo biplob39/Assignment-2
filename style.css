@@ -174,11 +174,13 @@ h3 {
     border-radius: 5px;
     padding: 15px 30px;
     margin: 50px;
+    transition: 4s;
 
 }
 
 .border-img:hover {
     box-shadow: 0 6px 6px 0 rgba(167, 160, 160, 0.2), 0 6px 20px 0 rgba(177, 165, 165, 0.19);
+    transform: rotate(360deg);
 }
 
 .icon {
