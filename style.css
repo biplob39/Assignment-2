@@ -96,8 +96,7 @@ main {
 }
 
 .container-title {
-    padding: 30px 0px 00px 50px;
-
+    padding: 60px 0px 00px 50px;
 }
 
 .text-color {
@@ -156,6 +155,44 @@ h3 {
 
 .year-experience {
     font-size: 15px;
+}
+
+
+/* Social Media */
+
+.Media-ection {
+    margin-top: 80px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width-img {
+    width: 450px;
+    height: 450px;
+}
+
+.half-width-title {
+    padding: 50px 0px 0px 70px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.build-color {
+    color: rgb(243, 115, 41);
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
 /*  */
