@@ -86,7 +86,6 @@ main {
 .container-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* padding-left: 200px; */
 }
 
 .img-size {
@@ -107,8 +106,7 @@ main {
     color: #FD6E0A;
 }
 
-/*  */
-
+/* --Features-Section-- */
 
 .text-title {
     border-left: 4px solid #FD6E0A;
@@ -127,16 +125,17 @@ h3 {
 }
 
 .container-title-img {
-    height: 750px;
+    height: 100%;
+    width: 550px;
     padding-left: 65px;
 }
 
-/* Btn Years */
+/* <!-- Year-top-Section --> */
 
 .Year-top {
     text-align: center;
     transform: translate(80px);
-    margin-top: -160px;
+    margin-top: -130px;
     align-items: center;
 }
 
@@ -158,10 +157,45 @@ h3 {
 }
 
 
-/* Social Media */
+/* -- Some-Section -- */
+
+.box-title {
+    margin-top: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.border-img {
+    text-align: center;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 50px;
+
+}
+
+.border-img:hover {
+    box-shadow: 0 6px 6px 0 rgba(167, 160, 160, 0.2), 0 6px 20px 0 rgba(177, 165, 165, 0.19);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+
+}
+
+.border-font {
+    margin: 0px;
+}
+
+/* <!-- Media-Section --> */
 
 .Media-ection {
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .flexible-container {
@@ -195,33 +229,7 @@ h3 {
     font-weight: 700;
 }
 
-/*  */
-
-.box-title {
-    /* padding-left: 160px; */
-    margin-top: 100px;
-}
-
-.box-container {
-    display: flex;
-    justify-content: center;
-}
-
-.border-img {
-    text-align: center;
-    border: 1px solid #FD6E0A;
-    border-radius: 5px;
-    padding: 5px 30px;
-    margin: 50px;
-}
-
-.icon {
-    width: 30px;
-    height: 30px;
-
-}
-
-/*  */
+/*--Sponspors-Section */
 .Sponspors-title {
     text-align: center;
 
@@ -240,7 +248,7 @@ h3 {
     height: 35px;
 }
 
-/*  */
+/* Foote */
 
 footer {
     justify-content: center;
@@ -261,6 +269,10 @@ Media Queries
         width: 100%;
     }
 
+    .header {
+        padding: 5px;
+    }
+
     .nav-titel .ul {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -271,11 +283,16 @@ Media Queries
         display: block;
     }
 
+    .navs {
+        font-size: 20px;
+    }
+
     .banner,
     .container,
     .container-img,
     .container-title,
     .Year-top,
+    .flexible-container,
     .box-container,
     .Sponspors-img {
         grid-template-columns: repeat(1, 1fr);
@@ -294,9 +311,14 @@ Media Queries
         padding-left: 0px;
     }
 
-    .container-title {
-        padding: 0px;
+    .container-title,
+    .half-width-title {
         align-items: center;
+        padding: 0px;
+    }
+
+    .half-width-img {
+        width: 100%;
     }
 
     .Year-top {
